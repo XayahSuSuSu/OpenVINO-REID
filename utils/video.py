@@ -15,7 +15,7 @@ import cv2 as cv
 import sys
 from pathlib import Path
 
-sys.path.append(str(Path(__file__).resolve().parents[3] / 'common/python'))
+sys.path.append(str(Path(__file__).resolve().parents[0] / 'python'))
 from images_capture import open_images_capture
 
 
